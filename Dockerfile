@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER xw <xwnjnu@gmail.com>
+MAINTAINER xw152zpp <xwnjnu@gmail.com>
 
 RUN apt-get -y update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes software-properties-common python-software-properties
